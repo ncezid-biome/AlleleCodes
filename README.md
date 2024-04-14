@@ -49,6 +49,8 @@ Some output files will have a prefix as designated by `--prefix`. Following our 
 |----|----| ------- |
 |alleleCodes.tsv| A TSV file as designated with `--output`. Contains two columns: sample and allele code. | `SRR4280276      CAMP2.1 - 3.1.15.1.1.1` |
 |CAMP_nomenclature_srcfiles | source files | |
+|CAMP_nomenclature_srcfiles/alleles | Main directory storing allele profiles written to file over time | |
+|CAMP_nomenclature_srcfiles/alleles/current | Directory contains most recently written allele profiles in blocks of 1000 | |
 |CAMP_nomenclature_srcfiles/CAMP_nomenclature_logs| This directory contains the actual log files from each run, allowing you to run the main script multiple times and aggregate results. | Filenames will have a timestamped format such as `wgst_log_2023-05-30@10-24-42.txt`. |
 |CAMP_nomenclature_srcfiles/CAMP_nomenclature_logs/change_log| This directory contains log files of how allele codes have changed over time. | The files are timestamped with the current date of run (e.g., `2023-05-30.tsv`) and appended to each time if run multiple times on the same day |
 
