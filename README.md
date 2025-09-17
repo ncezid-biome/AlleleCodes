@@ -10,7 +10,7 @@ Python script(s) for assigning allele codes under current PulseNet nomenclature 
 
 ```bash
 cd ~/bin
-git clone git@github.com:gmaniscoo/AlleleCodes.git
+git clone git@github.com:ncezid-biome/AlleleCodes.git
 export PATH=$PATH:~/AlleleCodes/scripts
 ```
 
