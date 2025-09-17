@@ -1,5 +1,7 @@
 # AlleleCodes
 
+[![DOI](https://zenodo.org/badge/785247888.svg)](https://doi.org/10.5281/zenodo.17144584)
+
 Python script(s) for assigning allele codes under current PulseNet nomenclature system in BioNumerics but as a command-line executable without BioNumerics dependencies
 
 ## Installation
